@@ -1,0 +1,16 @@
+html, body, div{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/paisagem_2.jpg);
+}
+
+#box { 
+    width: 195px; 
+    height: 140px;
+    position: absolute; 
+    left: 630px; 
+    top: 550px;
+}

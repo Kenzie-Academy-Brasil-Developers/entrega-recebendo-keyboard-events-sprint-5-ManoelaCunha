@@ -3,7 +3,7 @@ let boxLeft = 630;
 
 const img = document.getElementById("box");
 const imgHelicoptero = document.createElement("img");
-imgHelicoptero.src = "../img/helicoptero_right.png";
+imgHelicoptero.src = "img/helicoptero_right.png";
 img.appendChild(imgHelicoptero);
 
 document.addEventListener('keydown', (event) => {
@@ -24,12 +24,12 @@ const keydownListener = (value) => {
     
     if(value === 'ArrowRight'){
         boxLeft += 10;
-        imgHelicoptero.src = "../img/helicoptero_right.png";
+        imgHelicoptero.src = "img/helicoptero_right.png";
     }
 
     if(value === 'ArrowLeft'){
         boxLeft -= 10;
-        imgHelicoptero.src = "../img/helicoptero_left.png";
+        imgHelicoptero.src = "img/helicoptero_left.png";
     }
 
     document.getElementById("box").style.top = boxTop + "px";

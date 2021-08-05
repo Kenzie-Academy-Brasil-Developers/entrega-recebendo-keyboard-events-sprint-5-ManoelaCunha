@@ -4,7 +4,7 @@ html, body, div{
 }
 
 body{
-    background-image: url(./img/paisagem_2.jpg);
+    background-image: url(../img/paisagem_2.jpg);
 }
 
 #box { 
